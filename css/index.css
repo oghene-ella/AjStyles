@@ -9,7 +9,8 @@ html, body{
 .container{
     position: relative;
     padding:0;
-    margin:0;
+    bottom:0%;
+    /*bottom:20px;*/
     height:100%;
     background-image:url('../images/image11.jpg');
     background-repeat: no-repeat; 
@@ -34,7 +35,7 @@ html, body{
 .container .writeup{
     position:relative;
     color:rgb(252, 207, 7);
-    top:6em
+    top:6em;
 }
 .innercontainer .writeup h2{
     font-size: 55px;
@@ -223,6 +224,8 @@ html, body{
     top:22%;
     margin-left:2%;
     font-size:17px;
+    letter-spacing: 1px;
+    font-weight:30px;
     color: rgb(252, 207, 7);
 }
 .about table .table{
@@ -268,8 +271,7 @@ html, body{
     font-size:25px;
     margin-left:30px;
 }
-.innercontainer2 .form,
-.innercontainer2 .sidePage{
+.innercontainer2 .form{
     position:relative;
     width:28%;
     height:77%;
@@ -278,7 +280,6 @@ html, body{
 .innercontainer2 .form{
     background-color: white;
     top:15%;
-
     color:black;
     margin:auto;
 }

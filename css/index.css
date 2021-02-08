@@ -8,9 +8,6 @@ html, body{
 /***INDEX/HOME PAGE CSS***/
 .container{
     position: relative;
-    padding:0;
-    bottom:0%;
-    /*bottom:20px;*/
     height:100%;
     background-image:url('../images/image11.jpg');
     background-repeat: no-repeat; 
@@ -307,14 +304,6 @@ form button:hover{
     background-color:black;
     color: rgb(252, 207, 7);
     cursor:pointer;
-}
-.innercontainer2 .sidePage{
-    position: relative;
-    background-color: rgb(252, 207, 7);
-    float:right;
-    bottom:60%;
-    right:18%;
-    color:white;
 }
 .sidePage h2,
 .sidePage p{

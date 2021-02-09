@@ -292,10 +292,19 @@ form #email,
 form #phoneNo,
 form #gender,
 form #message,
-form #comment,
 form button{
     padding:7px;
-    width:95%;
+    width:99.5%;
+    text-align: center;
+    background-color:rgb(252, 207, 7);
+    border:none;
+}
+form #comment{
+    padding:7px;
+    min-width:22em;
+    max-width:22em;
+    min-height:65px;
+    max-height:65px;
     text-align: center;
     background-color:rgb(252, 207, 7);
     border:none;
